@@ -1,3 +1,72 @@
+/* Layout
+============================== */
+
 .outline {
   border: 1px solid red;
 }
+.header-highlight {
+  color: red;
+}
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clicks-copy {
+  color: #e44d4e;
+  font-size: 2em;
+  font-weight: bold;
+}
+.leads-copy {
+  color: #ee5840;
+  font-size: 2em;
+  font-weight: bold;
+}
+.sales-copy {
+  color: #4fb5d0;
+  font-size: 2em;
+  font-weight: bold;
+}
+#ipad-bg {
+  background-image: url(../img/asset3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+.ipad-copy-wrapper {
+  padding: 155px 115px 0 115px;
+}
+#ipad-bg h4 {
+  color: #cfb53b;
+  font-size: 0.75em;
+  margin-bottom: 5px;
+}
+.campaign-number-red {
+  font-size: 2.17em;
+  color: #e44d4e;
+  margin-top: -8px;
+  margin-bottom: -10px;
+}
+.campaign-number-green {
+  font-size: 2.17em;
+  color: #368a55;
+  margin-top: -8px;
+  margin-bottom: -10px;
+}
+.campaign-win {
+  font-size: 2.17em;
+  color: #368a55;
+  margin-bottom: 25px;
+}
+
+.green-highlight {
+  color: #368a55;
+}
+
+
+
+/* Icons
+============================== */
+
+/* Media Queries
+============================== */
