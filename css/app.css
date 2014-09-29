@@ -98,6 +98,7 @@ section {
 }
 .header-highlight {
   color: red;
+  text-decoration: underline;
 }
 .white-copy {
   color: white;
