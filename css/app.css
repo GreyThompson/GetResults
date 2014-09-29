@@ -98,6 +98,7 @@ section {
 }
 .header-highlight {
   color: red;
+  text-decoration: underline;
 }
 .white-copy {
   color: white;
@@ -247,6 +248,13 @@ section {
 }
 .contact-copy {
   margin-top: 20px;
+}
+.modal-title {
+  font-weight: 100;
+}
+.modal-copy {
+  font-weight: 200;
+  text-shadow: none;
 }
 
 /* Icons
