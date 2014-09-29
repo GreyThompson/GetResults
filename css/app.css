@@ -249,6 +249,13 @@ section {
 .contact-copy {
   margin-top: 20px;
 }
+.modal-title {
+  font-weight: 100;
+}
+.modal-copy {
+  font-weight: 200;
+  text-shadow: none;
+}
 
 /* Icons
 ============================== */
