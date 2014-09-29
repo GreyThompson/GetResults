@@ -79,9 +79,6 @@ body h4 {
 header {
   padding: 50px 0 50px 0;
 }
-section {
-  /* For drop shadows? */
-}
 #gs-button {
   font-size: 1.75rem;
   font-weight: 200;
@@ -105,6 +102,9 @@ section {
 }
 .no-bot-margin {
   margin-bottom: 0;
+}
+.no-text-shadow {
+  text-shadow: none;
 }
 .head-title {
   display: inline-block;
