@@ -4,6 +4,8 @@
     background-image: url("../img/bg/bg7.jpg");
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #in-front-bg {
   background: #ffffff; /* Old browsers */
@@ -22,6 +24,8 @@
   background-image: url("../img/bg/bg5.jpg");
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #scale-up {
   /* white bg */
@@ -31,6 +35,8 @@
   background-image: url("../img/bg/bg8.jpg");
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #our-services {
   background: #ffffff; /* Old browsers */
@@ -46,6 +52,8 @@
   background-image: url("../img/bg/bg11.jpg");
   /*background-position: center;*/
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #our-team {
   /* white bg */
@@ -159,18 +167,18 @@ header {
 }
 .campaign-number-green {
   font-size: 2.17em;
-  color: #368a55;
+  color: #43ac6a;
   margin-top: -8px;
   margin-bottom: -10px;
 }
 .campaign-win {
   font-size: 2.17em;
-  color: #368a55;
+  color: #43ac6a;
   margin-bottom: 25px;
   margin-top: -7px;
 }
 .green-highlight {
-  color: #368a55;
+  color: #43ac6a;
   font-weight: 600;
   text-decoration: underline;
 }
