@@ -26,6 +26,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 0;
 }
 #scale-up {
   /* white bg */
@@ -74,6 +75,9 @@
 
 /* Layout
 ============================== */
+section {
+  padding-bottom: 30px;
+}
 body p {
   font-weight: 200;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
@@ -83,6 +87,7 @@ body h4 {
   font-weight: 100;
   margin-top: 15px;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  padding-top: 25px;
 }
 header {
   padding: 50px 0 50px 0;
@@ -123,6 +128,7 @@ header {
   display: inline-block;
   color: white;
   background-color: black;
+  padding-top: 0;
 }
 .center-img {
   display: block;
@@ -157,7 +163,9 @@ header {
 #ipad-bg h4 {
   color: #cfb53b;
   font-size: 0.75em;
+  margin-top: 0;
   margin-bottom: 5px;
+  padding-top: 0;
 }
 .campaign-number-red {
   font-size: 2.17em;
@@ -176,11 +184,16 @@ header {
   color: #43ac6a;
   margin-bottom: 25px;
   margin-top: -7px;
+  padding-top: 0;
 }
 .green-highlight {
   color: #43ac6a;
   font-weight: 600;
   text-decoration: underline;
+}
+.cs-h4 {
+  color: white;
+  padding-top: 0;
 }
 .case-figure {
   color: white;
@@ -234,6 +247,7 @@ header {
 }
 .source {
   font-size: 0.75rem;
+  text-shadow: none;
 }
 #our-team img {
   border-radius: 100%;
