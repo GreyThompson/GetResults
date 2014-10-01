@@ -4,6 +4,8 @@
     background-image: url("../img/bg/bg7.jpg");
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #in-front-bg {
   background: #ffffff; /* Old browsers */
@@ -22,6 +24,9 @@
   background-image: url("../img/bg/bg5.jpg");
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0;
 }
 #scale-up {
   /* white bg */
@@ -31,6 +36,8 @@
   background-image: url("../img/bg/bg8.jpg");
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #our-services {
   background: #ffffff; /* Old browsers */
@@ -46,6 +53,8 @@
   background-image: url("../img/bg/bg11.jpg");
   /*background-position: center;*/
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #our-team {
   /* white bg */
@@ -66,6 +75,9 @@
 
 /* Layout
 ============================== */
+section {
+  padding-bottom: 30px;
+}
 body p {
   font-weight: 200;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
@@ -75,12 +87,10 @@ body h4 {
   font-weight: 100;
   margin-top: 15px;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  padding-top: 25px;
 }
 header {
   padding: 50px 0 50px 0;
-}
-section {
-  /* For drop shadows? */
 }
 #gs-button {
   font-size: 1.75rem;
@@ -106,6 +116,9 @@ section {
 .no-bot-margin {
   margin-bottom: 0;
 }
+.no-text-shadow {
+  text-shadow: none;
+}
 .head-title {
   display: inline-block;
   font-size: 4rem;
@@ -115,6 +128,7 @@ section {
   display: inline-block;
   color: white;
   background-color: black;
+  padding-top: 0;
 }
 .center-img {
   display: block;
@@ -149,7 +163,9 @@ section {
 #ipad-bg h4 {
   color: #cfb53b;
   font-size: 0.75em;
+  margin-top: 0;
   margin-bottom: 5px;
+  padding-top: 0;
 }
 .campaign-number-red {
   font-size: 2.17em;
@@ -159,20 +175,25 @@ section {
 }
 .campaign-number-green {
   font-size: 2.17em;
-  color: #368a55;
+  color: #43ac6a;
   margin-top: -8px;
   margin-bottom: -10px;
 }
 .campaign-win {
   font-size: 2.17em;
-  color: #368a55;
+  color: #43ac6a;
   margin-bottom: 25px;
   margin-top: -7px;
+  padding-top: 0;
 }
 .green-highlight {
-  color: #368a55;
+  color: #43ac6a;
   font-weight: 600;
   text-decoration: underline;
+}
+.cs-h4 {
+  color: white;
+  padding-top: 0;
 }
 .case-figure {
   color: white;
@@ -226,6 +247,7 @@ section {
 }
 .source {
   font-size: 0.75rem;
+  text-shadow: none;
 }
 #our-team img {
   border-radius: 100%;
