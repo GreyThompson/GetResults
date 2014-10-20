@@ -1,13 +1,14 @@
 /* Backgrounds
 ============================== */
 #header-bg {
-    background-image: url("../img/bg/bg7.jpg");
+    background-image: url("../img/bg/bg12.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #in-front-bg {
+  position: relative;
   background: #ffffff; /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
@@ -16,9 +17,20 @@
   background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
   background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+  z-index: 500;
 }
 #impact {
   /* white bg */
+  position: relative;
+  background: #ffffff;
+  padding-bottom: 0px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7); 
+  z-index: 250;
 }
 #winners-losers {
   background-image: url("../img/bg/bg5.jpg");
@@ -30,9 +42,16 @@
 }
 #scale-up {
   /* white bg */
+  position: relative;
+  z-index: 500;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);    
   padding-bottom: 25px;
 }
 #case-study {
+  position: relative;
+  z-index: 250;  
   background-image: url("../img/bg/bg8.jpg");
   background-position: center;
   background-attachment: fixed;
@@ -40,6 +59,8 @@
   background-size: cover;
 }
 #our-services {
+  position: relative;
+  z-index: 500;  
   background: #ffffff; /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
@@ -48,6 +69,9 @@
   background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
   background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);    
 }
 #faq {
   background-image: url("../img/bg/bg11.jpg");
@@ -58,7 +82,12 @@
 }
 #our-team {
   /* white bg */
+  position: relative;
+  z-index: 500;    
   padding-bottom: 25px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);      
 }
 #contact {
   background: #7d7e7d; /* Old browsers */
@@ -96,15 +125,20 @@ header {
   padding: 50px 0 50px 0;
 }
 #gs-button {
+  border: 1px solid #185f05;
   font-size: 1.75rem;
   font-weight: 200;
   padding-top: 10px;
   padding-bottom: 10px;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3), 0px 0px 1px 1px rgba(255,255,255,0.45) inset;
+  -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3), 0px 0px 1px 1px rgba(255,255,255,0.45) inset;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3), 0px 0px 1px 1px rgba(255,255,255,0.45) inset;
 }
 .pre-head-copy {
   font-size: 1.4rem;
   font-weight: 400;
+  margin-top: 50px;
   margin-bottom: 50px;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 
@@ -115,6 +149,7 @@ header {
 }
 .white-copy {
   color: white;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
 }
 .no-bot-margin {
   margin-bottom: 0;
@@ -137,7 +172,6 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
 }
 .clicks-copy {
   color: #e44d4e;
@@ -209,14 +243,14 @@ header {
   margin-top: -8px;
 }
 .services-box {
-  border: 2px solid gray;
+  border: 1px solid rgba(0, 59, 72, 1);
   border-radius: 4px;
   padding: 0;
   margin-bottom: 30px;
   background: white;
-  -webkit-box-shadow: 1px 2px 3px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    1px 2px 3px 3px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         1px 2px 3px 3px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 0px 10px 3px rgba(0,0,0,0.2);  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 0px 10px 3px rgba(0,0,0,0.2);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 .services-box .os-head-red,
 .services-box .os-head-blue {
@@ -239,11 +273,17 @@ header {
 .os-head-red {
   background-color: #e44d4e;
   padding: 0;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.35) inset;
+  -moz-box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.35) inset;
+  box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.35) inset;
 }
 
 .os-head-blue {
-  background-color: #4fb5d0;
+  background-color: #0b6073;
   padding: 0;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.35) inset;
+  -moz-box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.35) inset;
+  box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.35) inset;  
 }
 .bold {
   font-weight: bold;
@@ -281,7 +321,33 @@ header {
   font-weight: 200;
   text-shadow: none;
 }
-
+.spacing-bottom {
+  padding-bottom: 25px;
+}
+.image-shadow {
+  box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.4);
+}
+.spacing-header {
+  margin-top: 100px;
+}
+.no-padding {
+  padding: 0px;
+  margin: 0px;
+}
+.gsnav {
+  position: absolute;
+  margin-top: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: #ffffff;
+  height: 30px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);     
+}
 /* Icons
 ============================== */
 
